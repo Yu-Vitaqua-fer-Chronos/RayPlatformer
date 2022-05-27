@@ -1,0 +1,7 @@
+[submodule "naylib"]
+	path = naylib
+	url = https://github.com/planetis-m/naylib
+
+[submodule "chipmunk2d"]
+    path = chipmunk
+	url = https://github.com/slembcke/Chipmunk2D
