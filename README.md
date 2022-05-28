@@ -1,4 +1,4 @@
-# NaylibGame
+# RayPlatformer
 This is a game made in Nim with Naylib, which is a wrapper around Raylib!
 - [Nim-Lang/Nim](https://github.com/nim-lang/Nim)
   - The Nim programming language.
