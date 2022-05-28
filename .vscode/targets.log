@@ -1,4 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
 # GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -6,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri May 27 20:39:13 2022
+# Make data base, printed on Sat May 28 09:05:17 2022
 
 # Variables
 
@@ -19,7 +21,7 @@ LC_ALL = C
 # environment
 NO_AT_BRIDGE = 1
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-a3e671b2-02af-4f09-b96e-5061512ab009.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-055fcc2f-fbbd-4584-b60c-8fb8a46652e9.sock
 # environment
 VSCODE_CWD = /home/raees
 # default
@@ -87,13 +89,13 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 15159
+VSCODE_PID = 14871
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/ManjaroPC:@/tmp/.ICE-unix/13429,unix/ManjaroPC:/tmp/.ICE-unix/13429
+SESSION_MANAGER = local/ManjaroPC:@/tmp/.ICE-unix/13479,unix/ManjaroPC:/tmp/.ICE-unix/13479
 # automatic
 *F = $(notdir $*)
 # environment
@@ -165,7 +167,7 @@ USER = raees
 # default
 MAKE_VERSION := 4.3
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 15145
+GIO_LAUNCHED_DESKTOP_FILE_PID = 14858
 # environment
 _ = /usr/bin/make
 # environment
@@ -205,9 +207,9 @@ XDG_MENU_PREFIX = gnome-
 
 # Directories
 
-# . (device 2049, inode 2286318): 12 files, no impossibilities.
+# . (device 2049, inode 2286318): 16 files, no impossibilities.
 
-# 12 files, no impossibilities in 1 directories.
+# 16 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -257,14 +259,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 20 / storage = 178 B / avg = 8 B
-# current buf: size = 8162 B / used = 178 B / count = 20 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 24 / storage = 217 B / avg = 9 B
+# current buf: size = 8162 B / used = 217 B / count = 24 / avg = 9 B
 
-# strcache performance: lookups = 23 / hit rate = 13%
+# strcache performance: lookups = 27 / hit rate = 11%
 # hash-table stats:
-# Load=20/8192=0%, Rehash=0, Collisions=0/23=0%
-# Finished Make data base on Fri May 27 20:39:13 2022
+# Load=24/8192=0%, Rehash=0, Collisions=0/27=0%
+# Finished Make data base on Sat May 28 09:05:17 2022
 
  
-make: *** No rule to make target 'all'.  Stop.
-
