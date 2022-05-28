@@ -1,6 +1,6 @@
 #!/bin/sh
 
-nimble install https://github.com/enthus1ast/nim-chipmunk
+nimble install https://github.com/enthus1ast/nim-chipmunk --yes
 
 git submodule update --init --recursive
 cd naylib
@@ -10,4 +10,4 @@ nim r nayget build
 cd ../chipmunk
 cmake .
 make
-mv src/libchipmunk.so ../libchipmunk.so
+mv src/libchipmunk* ..
