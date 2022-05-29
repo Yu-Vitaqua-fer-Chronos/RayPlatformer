@@ -16,4 +16,4 @@ Code to create a static shape
   - Any Vector-compatible type can be converted easily and automatically now
 
 ### <ins>Misc
-[Example Code (C)](https://chipmunk-physics.net/release/ChipmunkLatest-Docs/#:~:text=Hide/Show%20Hello%20Chipmunk%20Example)
+[Example Code (C) For Chipmunk](https://chipmunk-physics.net/release/ChipmunkLatest-Docs/#:~:text=Hide/Show%20Hello%20Chipmunk%20Example)
