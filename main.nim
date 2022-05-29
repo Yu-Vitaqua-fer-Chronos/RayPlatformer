@@ -17,7 +17,7 @@ proc main =
 
     discard createGroundPiece(space, v(20, 400), v(500, 370), 0, 1, Green, Black)
 
-    var player:Entity = createBoxEntity(space, 1, v(100, 280), 10, 10, 0.7, EntityType.Player, White, Green, 1, 1)
+    var player:Entity = createBoxEntity(space, 1, v(100, 280), 50, 50, 0.7, EntityType.Player, White, Green, 1, 1)
     var camera:Camera2D = Camera2D(offset:v(0, 0), target:v(0, 0), rotation:0, zoom:1)
 
     while not windowShouldClose():
