@@ -89,4 +89,5 @@ proc updateScreen*() =
 
             drawTexturePro(entity.currentTexture, Rectangle(x:0, y:0, width:entity.currentTexture.width.toFloat(), height:entity.currentTexture.height.toFloat()), Rectangle(x:entity.position.x, y:entity.position.y, width:entity.width, height:entity.height), v(0, 0), 0, entity.fillColour)
             entity.currentFrame += 1
-        #drawRectangleRec(Rectangle(x:entity.position.x, y:entity.position.y, width:entity.width, height:entity.height), entity.outlineColour)
+        else:
+            drawRectangleRec(Rectangle(x:entity.position.x, y:entity.position.y, width:entity.width, height:entity.height), entity.outlineColour)
