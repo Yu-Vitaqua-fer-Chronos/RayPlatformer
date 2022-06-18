@@ -1,2 +1,2 @@
---path:naylib
+--path:"./naylib/src"
 --mm:arc
