@@ -1,11 +1,11 @@
 #!/bin/sh
 
-nimble install https://github.com/enthus1ast/nim-chipmunk --yes
+nimble install https://github.com/enthus1ast/nim-chipmunk nake --accept
 
 git submodule update --init --recursive
+
 cd naylib
-git checkout -b oldcommit bc2437a438617b72b527f4d8700516981530ca2a
-nim r nayget build
+nake buildDesktop
 
 cd ../chipmunk
 cmake .
