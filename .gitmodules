@@ -1,7 +1,7 @@
 [submodule "chipmunk"]
-    path = chipmunk
+	path = chipmunk
 	url = https://github.com/slembcke/Chipmunk2D
 
 [submodule "naylib"]
-    path = naylib
-	url = https://github.com/Planetis-M/Naylib
+	path = naylib
+	url = https://github.com/planetis-m/naylib
