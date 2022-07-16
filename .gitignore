@@ -1,2 +1,5 @@
 libchipmunk.*
 main
+
+chipmunk/
+naylib/

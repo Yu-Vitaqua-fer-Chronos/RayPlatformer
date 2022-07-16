@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun May 29 14:50:12 2022
+# Make data base, printed on Sat Jul 16 13:29:07 2022
 
 # Variables
 
@@ -21,7 +19,7 @@ LC_ALL = C
 # environment
 NO_AT_BRIDGE = 1
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-34d5f0d1-d92a-4e0e-bab6-51f34a490cb6.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-758254b7-2462-4302-9054-b0b2170d0283.sock
 # environment
 VSCODE_CWD = /home/raees
 # default
@@ -49,7 +47,7 @@ VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = /home/raees/.config/Code - OSS/CachedData/57fd6d0195bb9b9d1b49f6da5db789060795de47
+VSCODE_CODE_CACHE_PATH = /home/raees/.config/Code - OSS/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
 # environment
 XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session1
 # environment
@@ -89,13 +87,13 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 15207
+VSCODE_PID = 23157
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/ManjaroPC:@/tmp/.ICE-unix/13432,unix/ManjaroPC:/tmp/.ICE-unix/13432
+SESSION_MANAGER = local/ManjaroPC:@/tmp/.ICE-unix/13320,unix/ManjaroPC:/tmp/.ICE-unix/13320
 # automatic
 *F = $(notdir $*)
 # environment
@@ -129,7 +127,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = /bedrock/cross/pin/bin:/bedrock/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/usr/local/games:/usr/games:/home/raees/Android/platform-tools:/home/raees/Android/tools:/home/raees/.d2j/:/home/raees/.d2j/bin:/home/raees/.jabba/jdk/openjdk@1.17.0/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/usr/lib/emsdk/upstream/emscripten:/usr/lib/emsdk/node/14.15.5_64bit/bin:/usr/lib/emsdk:/home/raees/.cargo/bin:/home/raees/.nimble/bin:/home/raees/.local/bin:/home/raees/.pyston/usr/bin:/opt/android-sdk/emulator:/opt/android-sdk/tools:/opt/android-sdk/tools/bin:/home/raees/.dotnet/tools:/usr/lib/jvm/default/bin:/bedrock/cross/bin:/home/raees/.nimble/bin:/home/raees/.nimble/bin:/home/raees/.nimble/bin
+PATH = /bedrock/cross/pin/bin:/bedrock/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/bin:/sbin:/usr/local/games:/usr/games:/home/raees/Android/platform-tools:/home/raees/Android/tools:/home/raees/.d2j/:/home/raees/.d2j/bin:/home/raees/.jabba/jdk/openjdk@1.17.0/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/usr/lib/emsdk/upstream/emscripten:/usr/lib/emsdk/node/14.15.5_64bit/bin:/usr/lib/emsdk:/home/raees/.cargo/bin:/home/raees/.nimble/bin:/home/raees/.local/bin:/home/raees/.pyston/usr/bin:/opt/android-sdk/emulator:/opt/android-sdk/tools:/opt/android-sdk/tools/bin:/home/raees/.dotnet/tools:/usr/lib/jvm/default/bin:/bedrock/cross/bin
 # default
 MAKEFILES := 
 # environment
@@ -167,7 +165,7 @@ USER = raees
 # default
 MAKE_VERSION := 4.3
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 15193
+GIO_LAUNCHED_DESKTOP_FILE_PID = 23143
 # environment
 _ = /usr/bin/make
 # environment
@@ -183,7 +181,7 @@ HOME = /home/raees
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-d0cb740c-1.67.0-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-d0cb740c-1.68.1-main.sock
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -207,9 +205,9 @@ XDG_MENU_PREFIX = gnome-
 
 # Directories
 
-# . (device 2049, inode 2286318): 20 files, no impossibilities.
+# . (device 2049, inode 2293929): 21 files, no impossibilities.
 
-# 20 files, no impossibilities in 1 directories.
+# 21 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -259,12 +257,14 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 28 / storage = 280 B / avg = 10 B
-# current buf: size = 8162 B / used = 280 B / count = 28 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 29 / storage = 297 B / avg = 10 B
+# current buf: size = 8162 B / used = 297 B / count = 29 / avg = 10 B
 
-# strcache performance: lookups = 31 / hit rate = 9%
+# strcache performance: lookups = 32 / hit rate = 9%
 # hash-table stats:
-# Load=28/8192=0%, Rehash=0, Collisions=0/31=0%
-# Finished Make data base on Sun May 29 14:50:12 2022
+# Load=29/8192=0%, Rehash=0, Collisions=0/32=0%
+# Finished Make data base on Sat Jul 16 13:29:07 2022
 
  
+make: *** No rule to make target 'all'.  Stop.
+
